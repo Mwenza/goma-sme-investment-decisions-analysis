@@ -41,7 +41,7 @@ lapply(packages, library, character.only = TRUE)
 
 # 2.1. Importation
 
-chemin <- "E:/recherche/Décision d'investissement et instabilité/Logit/Décision_dinvestissement_en_contexte_de_conflit.xlsx"
+chemin <- "data/decision_investissement_goma_anonymise.xlsx"
 
 données <- read_excel(chemin)
 
